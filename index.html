@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Georges Saab - Portoflio</title>
+    </head>
+    <body>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="hero">
+                <h1>GEORGES SAAB</h1>
+                <P> Computer and Communication Engineering Student</P>
+            </section>
+
+            <section id="about">
+            <h2>ABOUT ME</h2>
+            <img src="images/WhatsApp Image 2026-07-19 at 20.07.29.jpeg" alt="Georges saab headshot" class="profile-photo">
+            <p>
+                I'm a Computer and Communications Engineering (CCE) student at
+                Saint Joseph University of Beirut (USJ), currently part of the
+                LebNet Tech Fellows program. I enjoy building things across
+                different layers of tech, from web apps to embedded hardware.
+            </p>
+            <p>
+                My hands-on experience spans Python, JavaScript, C++, and HTML,
+                with projects touching machine learning (PyTorch, logistic
+                regression, Random Forest), embedded systems with Arduino and
+                ESP32, and web development.
+            </p>
+         </section>
+
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <p><strong>1. LebNet final project — Smart Irrigation Advisor</strong><br>
+            AI-powered irrigation advisor extending my MiledsFarm ESP32 setup. Uses
+            Random Forest or Logistic Regression to predict irrigation need from
+            soil/weather data, benchmarked against MiledsFarm's rule-based logic.</p>
+
+            <p><strong>2. MiledsFarm</strong><br>
+            Group Arduino/ESP32 smart farming project.
+            My role is the decision logic layer — I built evaluateState() (priority-based
+            rules mapping weather data to STORM/HOT/COLD/RAIN/WINDY/IDEAL),
+            getAdviceSentence() for the OLED display, and NTP time sync for Lebanon (UTC+3).</p>
+
+            <p><strong>3. Musing</strong><br>
+            AI-powered music practice and creation platform, built with Replit's AI agent
+            on React/Node.js. Integrates Spotify, AudD, LRCLIB, Claude API, and YouTube
+            Data API. Features song search, real-time chord/pitch detection, an instrument
+            tuner (guitar, bass, ukulele, oud), AI lyric/chord generation, and karaoke
+            video embedding. Submitted to the Kanz AI hackathon.</p>
+        </section>
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>PyTorch / Machine Learning</li>
+                <li> Arduino / ESP32</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <p>Reach out via GitHub or email.</p>
+        <form> 
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write a message here" rows="5" cols="40"></textarea>
+
+        <button type="submit">Send</button>
+        </form>
+        </section>    
+    <footer>
+        <p>© 2026 Georges Saab</p>
+        <p> phone number: +961 81/670311</p>
+    </footer>
+
+
+    </body>
+</html>
